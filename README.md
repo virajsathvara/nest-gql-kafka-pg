@@ -2,15 +2,39 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript repository enhanced with some additional features.
 
-### Included Features
-- Postgres Database and TypeORM Repository Pattern
-- GraphQL CodeFirst Approach with multiple URLs
+### TODOs
+- [x] Postgres Database Migrations and TypeORM Repository Pattern
+- [ ] JWT Authentication and Authorization with Guards
+- [ ] REST APIs And Middlewares
+- [ ] A Nice Logger and Error Handling
+- [ ] GraphQL CodeFirst Approach with multiple URLs
+- [ ] Cron Jobs
+- [ ] Multi-tenancy with Postgres
+- [ ] Using Worker Threads
+- [ ] Using Cluster Module for API Scaling
+- [ ] Kafka Integration
+- [ ] Redis Integration
+
+
+###  Features
+
+#### Core Features/TODO
+- Postgres Database and TypeORM Repository Pattern [Done]
+- GraphQL CodeFirst Approach with multiple URLs [Next]
 - REST APIs
+- Cron Jobs
 - JWT Authentication
+
+#### Advanced Features
 - Multi-tenancy with Postgres
+- using Worker Threads
+- using Cluster Module for API Scaling
+
+#### Integrations
 - Kafka Integration
 - Redis Integration
-- Cron Jobs
+
+#### Deployment
 - Jenkins Pipeline and Dockerfile
 - Kubernetes Deployment
 
@@ -75,3 +99,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## Ideas For Publications
+1. How to connect to Database in NestJS using TypeORM and run migrations.
+2. How to setup repository pattern in NestJS.
+3. How to write GraphQL APIs in NestJS using CodeFirst Approach.
+4. How to write GraphQL APIs in NestJS using CodeFirst Approach with multiple URLs.
+
